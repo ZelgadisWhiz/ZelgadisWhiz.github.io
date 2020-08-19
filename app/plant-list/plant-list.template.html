@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th>Plant</th>
+    <th>Status</th>
+    <th>Control</th>
+  </tr>
+  <tr ng-repeat="plant in $ctrl.plants">
+    <td><img ng-src="{{plant.imgUrl}}"></td>
+    <td>{{plant.status}}</td>
+    <td><button type="button" class="btn btn-primary" ng-disabled=!plant.canWater
+      ng-click="$ctrl.watering($index)">Water Plant</button></td>
+  </tr>
+</<table>
