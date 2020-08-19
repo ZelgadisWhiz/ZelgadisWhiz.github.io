@@ -31,7 +31,7 @@
       "status": "Normal",
       "canWater": true,
       "imgUrl": "",
-      "imgNormal": "app/plants/img/plant05.png",
-      "imgNeedsWater":"app/plants/img/plant05Needs.png"
+      "imgNormal": "app/plants/img/Plant05.png",
+      "imgNeedsWater":"app/plants/img/Plant05Needs.png"
     }
 ]
