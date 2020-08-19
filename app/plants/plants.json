@@ -3,35 +3,35 @@
         "status": "slightly dehydrated",
         "canWater": true,
         "imgUrl": "",
-        "imgNormal": "plants/img/plant01.png",
-        "imgNeedsWater":"plants/img/plant01Needs.png"
+        "imgNormal": "app/plants/img/plant01.png",
+        "imgNeedsWater":"app/plants/img/plant01Needs.png"
     },
     {
       "status": "dry",
       "canWater": true,
       "imgUrl": "",
-      "imgNormal": "plants/img/plant02.png",
-      "imgNeedsWater":"plants/img/plant02Needs.png"
+      "imgNormal": "app/plants/img/plant02.png",
+      "imgNeedsWater":"app/plants/img/plant02Needs.png"
     },
     {
       "status": "Normal",
       "canWater": true,
       "imgUrl": "",
-      "imgNormal": "plants/img/plant03.png",
-      "imgNeedsWater":"plants/img/plant03Needs.png"
+      "imgNormal": "app/plants/img/plant03.png",
+      "imgNeedsWater":"app/plants/img/plant03Needs.png"
     },
     {
       "status": "Normal",
       "canWater": true,
       "imgUrl": "",
-      "imgNormal": "plants/img/plant04.png",
-      "imgNeedsWater":"plants/img/plant04Needs.png"
+      "imgNormal": "app/plants/img/plant04.png",
+      "imgNeedsWater":"app/plants/img/plant04Needs.png"
     },
     {
       "status": "Normal",
       "canWater": true,
       "imgUrl": "",
-      "imgNormal": "plants/img/plant05.png",
-      "imgNeedsWater":"plants/img/plant05Needs.png"
+      "imgNormal": "app/plants/img/plant05.png",
+      "imgNeedsWater":"app/plants/img/plant05Needs.png"
     }
 ]

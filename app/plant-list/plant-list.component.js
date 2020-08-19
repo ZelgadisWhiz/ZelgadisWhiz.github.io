@@ -7,7 +7,7 @@ const NO_WATER_TIME = 21600000; //6 hours
 angular.
   module('plantList').
   component('plantList', {
-    templateUrl: 'plant-list/plant-list.template.html',
+    templateUrl: 'app/plant-list/plant-list.template.html',
     controller: ['$http', '$timeout', function PhoneListController($http, $timeout) {
         self = this;
 
@@ -45,7 +45,7 @@ angular.
               }, NO_WATER_TIME);
         };
 
-        $http.get('plants/plants.json').then(function(response){
+        $http.get('app/plants/plants.json').then(function(response){
           self.plants = response.data;
           var i;
           for(i=0;i < self.plants.length; i++){
